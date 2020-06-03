@@ -1,27 +1,45 @@
 package com.daniel.functionalTest;
 
+
+
+import java.beans.DesignMode;
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
+
 import static org.junit.Assert.*;
 public class FunctionalTest {
 	
 	
-	public WebDriver acessarAplicacao() {
-		System.setProperty("webdriver.chrome.driver", "src/main/resources/drivers/chromedriver.exe");
-		WebDriver driver = new ChromeDriver();
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		driver.get("http://localhost:8001/tasks/");
-		
-		return driver;
+	public WebDriver acessarAplicacao()  {
+			
+			DesiredCapabilities cap =  DesiredCapabilities.chrome();
+			WebDriver driver = null;
+			
+			try {
+				driver = new RemoteWebDriver(new URL("http://192.168.1.77:4444/wd/hub"), cap);
+			} catch (MalformedURLException e) {
+				e.printStackTrace();
+			}
+			
+			driver.get("http://localhost:8001/tasks/");
+			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+
+			return driver;
 	}
 	
+	
 	@Test
-	public void deveCadastrarTask() {
+	public void deveCadastrarTask()  {
 		WebDriver driver = acessarAplicacao();
 		try {
 		//clicar no botado de adicionar
@@ -43,7 +61,7 @@ public class FunctionalTest {
 	}
 	
 	@Test
-	public void naoDeveSalvarTarefaSemDescricao() {
+	public void naoDeveSalvarTarefaSemDescricao()  {
 		WebDriver driver = acessarAplicacao();
 		try {
 		//clicar no botado de adicionar
@@ -65,7 +83,7 @@ public class FunctionalTest {
 	}
 	
 	@Test
-	public void naoDeveSalvarTarefaSemData() {
+	public void naoDeveSalvarTarefaSemData()  {
 		WebDriver driver = acessarAplicacao();
 		try {
 		//clicar no botado de adicionar
