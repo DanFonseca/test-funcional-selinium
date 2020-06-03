@@ -1,0 +1,298 @@
+# Created on 2020-06-03T14:29:43.724
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:386)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+
+# Created on 2020-06-03T14:29:52.616
+Unexpected IOException: I,3,sun.desktop,windows
+
+
+# Created on 2020-06-03T14:29:52.617
+Unexpected IOException: I,3,awt.toolkit,sun.awt.windows.WToolkit
+
+
+# Created on 2020-06-03T14:29:52.620
+Unexpected IOException: I,3,java.specification.version,11
+
+
+# Created on 2020-06-03T14:29:52.620
+Unexpected IOException: I,3,sun.cpu.isalist,amd64
+
+
+# Created on 2020-06-03T14:29:52.621
+Unexpected IOException: I,3,sun.jnu.encoding,Cp1252
+
+
+# Created on 2020-06-03T14:29:52.622
+Unexpected IOException: I,3,java.class.path,D:\005C2 - Udemy\005CDevOps\005Cfunctional-test\005Ctarget\005Ctest-classes;D:\005C2 - Udemy\005CDevOps\005Cfunctional-test\005Ctarget\005Cclasses;C:\005CUsers\005Cdanie\005C.m2\005Crepository\005Cjunit\005Cjunit\005C4.13\005Cjunit-4.13.jar;C:\005CUsers\005Cdanie\005C.m2\005Crepository\005Corg\005Chamcrest\005Chamcrest-core\005C1.3\005Chamcrest-core-1.3.jar;C:\005CUsers\005Cdanie\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-java\005C3.141.59\005Cselenium-java-3.141.59.jar;C:\005CUsers\005Cdanie\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-api\005C3.141.59\005Cselenium-api-3.141.59.jar;C:\005CUsers\005Cdanie\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-chrome-driver\005C3.141.59\005Cselenium-chrome-driver-3.141.59.jar;C:\005CUsers\005Cdanie\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-edge-driver\005C3.141.59\005Cselenium-edge-driver-3.141.59.jar;C:\005CUsers\005Cdanie\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-firefox-driver\005C3.141.59\005Cselenium-firefox-driver-3.141.59.jar;C:\005CUsers\005Cdanie\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-ie-driver\005C3.141.59\005Cselenium-ie-driver-3.141.59.jar;C:\005CUsers\005Cdanie\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-opera-driver\005C3.141.59\005Cselenium-opera-driver-3.141.59.jar;C:\005CUsers\005Cdanie\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-remote-driver\005C3.141.59\005Cselenium-remote-driver-3.141.59.jar;C:\005CUsers\005Cdanie\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-safari-driver\005C3.141.59\005Cselenium-safari-driver-3.141.59.jar;C:\005CUsers\005Cdanie\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-support\005C3.141.59\005Cselenium-support-3.141.59.jar;C:\005CUsers\005Cdanie\005C.m2\005Crepository\005Cnet\005Cbytebuddy\005Cbyte-buddy\005C1.8.15\005Cbyte-buddy-1.8.15.jar;C:\005CUsers\005Cdanie\005C.m2\005Crepository\005Corg\005Capache\005Ccommons\005Ccommons-exec\005C1.3\005Ccommons-exec-1.3.jar;C:\005CUsers\005Cdanie\005C.m2\005Crepository\005Ccom\005Cgoogle\005Cguava\005Cguava\005C25.0-jre\005Cguava-25.0-jre.jar;C:\005CUsers\005Cdanie\005C.m2\005Crepository\005Ccom\005Cgoogle\005Ccode\005Cfindbugs\005Cjsr305\005C1.3.9\005Cjsr305-1.3.9.jar;C:\005CUsers\005Cdanie\005C.m2\005Crepository\005Corg\005Ccheckerframework\005Cchecker-compat-qual\005C2.0.0\005Cchecker-compat-qual-2.0.0.jar;C:\005CUsers\005Cdanie\005C.m2\005Crepository\005Ccom\005Cgoogle\005Cerrorprone\005Cerror_prone_annotations\005C2.1.3\005Cerror_prone_annotations-2.1.3.jar;C:\005CUsers\005Cdanie\005C.m2\005Crepository\005Ccom\005Cgoogle\005Cj2objc\005Cj2objc-annotations\005C1.1\005Cj2objc-annotations-1.1.jar;C:\005CUsers\005Cdanie\005C.m2\005Crepository\005Corg\005Ccodehaus\005Cmojo\005Canimal-sniffer-annotations\005C1.14\005Canimal-sniffer-annotations-1.14.jar;C:\005CUsers\005Cdanie\005C.m2\005Crepository\005Ccom\005Csquareup\005Cokhttp3\005Cokhttp\005C3.11.0\005Cokhttp-3.11.0.jar;C:\005CUsers\005Cdanie\005C.m2\005Crepository\005Ccom\005Csquareup\005Cokio\005Cokio\005C1.14.0\005Cokio-1.14.0.jar;
+
+
+# Created on 2020-06-03T14:29:52.624
+Unexpected IOException: I,3,java.vm.vendor,Oracle Corporation
+
+
+# Created on 2020-06-03T14:29:52.625
+Unexpected IOException: I,3,sun.arch.data.model,64
+
+
+# Created on 2020-06-03T14:29:52.626
+Unexpected IOException: I,3,user.variant,
+
+
+# Created on 2020-06-03T14:29:52.627
+Unexpected IOException: I,3,java.vendor.url,https://openjdk.java.net/
+
+
+# Created on 2020-06-03T14:29:52.628
+Unexpected IOException: I,3,user.timezone,America/Sao_Paulo
+
+
+# Created on 2020-06-03T14:29:52.629
+Unexpected IOException: I,3,os.name,Windows 10
+
+
+# Created on 2020-06-03T14:29:52.630
+Unexpected IOException: I,3,java.vm.specification.version,11
+
+
+# Created on 2020-06-03T14:29:52.631
+Unexpected IOException: I,3,sun.java.launcher,SUN_STANDARD
+
+
+# Created on 2020-06-03T14:29:52.631
+Unexpected IOException: I,3,user.country,BR
+
+
+# Created on 2020-06-03T14:29:52.632
+Unexpected IOException: I,3,sun.boot.library.path,C:\005CProgram Files\005CJava\005Cjdk-11.0.7\005Cbin
+
+
+# Created on 2020-06-03T14:29:52.633
+Unexpected IOException: I,3,sun.java.command,D:\005C2 - Udemy\005CDevOps\005Cfunctional-test\005Ctarget\005Csurefire\005Csurefirebooter17131627272799545358.jar D:\005C2 - Udemy\005CDevOps\005Cfunctional-test\005Ctarget\005Csurefire 2020-06-03T14-25-16_078-jvmRun1 surefire18439814265519191130tmp surefire_08954460990253046944tmp
+
+
+# Created on 2020-06-03T14:29:52.634
+Unexpected IOException: I,3,jdk.debug,release
+
+
+# Created on 2020-06-03T14:29:52.635
+Unexpected IOException: I,3,surefire.test.class.path,D:\005C2 - Udemy\005CDevOps\005Cfunctional-test\005Ctarget\005Ctest-classes;D:\005C2 - Udemy\005CDevOps\005Cfunctional-test\005Ctarget\005Cclasses;C:\005CUsers\005Cdanie\005C.m2\005Crepository\005Cjunit\005Cjunit\005C4.13\005Cjunit-4.13.jar;C:\005CUsers\005Cdanie\005C.m2\005Crepository\005Corg\005Chamcrest\005Chamcrest-core\005C1.3\005Chamcrest-core-1.3.jar;C:\005CUsers\005Cdanie\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-java\005C3.141.59\005Cselenium-java-3.141.59.jar;C:\005CUsers\005Cdanie\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-api\005C3.141.59\005Cselenium-api-3.141.59.jar;C:\005CUsers\005Cdanie\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-chrome-driver\005C3.141.59\005Cselenium-chrome-driver-3.141.59.jar;C:\005CUsers\005Cdanie\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-edge-driver\005C3.141.59\005Cselenium-edge-driver-3.141.59.jar;C:\005CUsers\005Cdanie\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-firefox-driver\005C3.141.59\005Cselenium-firefox-driver-3.141.59.jar;C:\005CUsers\005Cdanie\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-ie-driver\005C3.141.59\005Cselenium-ie-driver-3.141.59.jar;C:\005CUsers\005Cdanie\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-opera-driver\005C3.141.59\005Cselenium-opera-driver-3.141.59.jar;C:\005CUsers\005Cdanie\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-remote-driver\005C3.141.59\005Cselenium-remote-driver-3.141.59.jar;C:\005CUsers\005Cdanie\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-safari-driver\005C3.141.59\005Cselenium-safari-driver-3.141.59.jar;C:\005CUsers\005Cdanie\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-support\005C3.141.59\005Cselenium-support-3.141.59.jar;C:\005CUsers\005Cdanie\005C.m2\005Crepository\005Cnet\005Cbytebuddy\005Cbyte-buddy\005C1.8.15\005Cbyte-buddy-1.8.15.jar;C:\005CUsers\005Cdanie\005C.m2\005Crepository\005Corg\005Capache\005Ccommons\005Ccommons-exec\005C1.3\005Ccommons-exec-1.3.jar;C:\005CUsers\005Cdanie\005C.m2\005Crepository\005Ccom\005Cgoogle\005Cguava\005Cguava\005C25.0-jre\005Cguava-25.0-jre.jar;C:\005CUsers\005Cdanie\005C.m2\005Crepository\005Ccom\005Cgoogle\005Ccode\005Cfindbugs\005Cjsr305\005C1.3.9\005Cjsr305-1.3.9.jar;C:\005CUsers\005Cdanie\005C.m2\005Crepository\005Corg\005Ccheckerframework\005Cchecker-compat-qual\005C2.0.0\005Cchecker-compat-qual-2.0.0.jar;C:\005CUsers\005Cdanie\005C.m2\005Crepository\005Ccom\005Cgoogle\005Cerrorprone\005Cerror_prone_annotations\005C2.1.3\005Cerror_prone_annotations-2.1.3.jar;C:\005CUsers\005Cdanie\005C.m2\005Crepository\005Ccom\005Cgoogle\005Cj2objc\005Cj2objc-annotations\005C1.1\005Cj2objc-annotations-1.1.jar;C:\005CUsers\005Cdanie\005C.m2\005Crepository\005Corg\005Ccodehaus\005Cmojo\005Canimal-sniffer-annotations\005C1.14\005Canimal-sniffer-annotations-1.14.jar;C:\005CUsers\005Cdanie\005C.m2\005Crepository\005Ccom\005Csquareup\005Cokhttp3\005Cokhttp\005C3.11.0\005Cokhttp-3.11.0.jar;C:\005CUsers\005Cdanie\005C.m2\005Crepository\005Ccom\005Csquareup\005Cokio\005Cokio\005C1.14.0\005Cokio-1.14.0.jar;
+
+
+# Created on 2020-06-03T14:29:52.636
+Unexpected IOException: I,3,sun.cpu.endian,little
+
+
+# Created on 2020-06-03T14:29:52.637
+Unexpected IOException: I,3,user.home,C:\005CUsers\005Cdanie
+
+
+# Created on 2020-06-03T14:29:52.638
+Unexpected IOException: I,3,user.language,pt
+
+
+# Created on 2020-06-03T14:29:52.639
+Unexpected IOException: I,3,java.specification.vendor,Oracle Corporation
+
+
+# Created on 2020-06-03T14:29:52.640
+Unexpected IOException: I,3,java.version.date,2020-04-14
+
+
+# Created on 2020-06-03T14:29:52.640
+Unexpected IOException: I,3,java.home,C:\005CProgram Files\005CJava\005Cjdk-11.0.7
+
+
+# Created on 2020-06-03T14:29:52.641
+Unexpected IOException: I,3,file.separator,\005C
+
+
+# Created on 2020-06-03T14:29:52.641
+Unexpected IOException: I,3,basedir,D:\005C2 - Udemy\005CDevOps\005Cfunctional-test
+
+
+# Created on 2020-06-03T14:29:52.642
+Unexpected IOException: I,3,java.vm.compressedOopsMode,32-bit
+
+
+# Created on 2020-06-03T14:29:52.643
+Unexpected IOException: I,3,line.separator,\000D\000A
+
+
+# Created on 2020-06-03T14:29:52.643
+Unexpected IOException: I,3,java.specification.name,Java Platform API Specification
+
+
+# Created on 2020-06-03T14:29:52.644
+Unexpected IOException: I,3,java.vm.specification.vendor,Oracle Corporation
+
+
+# Created on 2020-06-03T14:29:52.645
+Unexpected IOException: I,3,java.awt.graphicsenv,sun.awt.Win32GraphicsEnvironment
+
+
+# Created on 2020-06-03T14:29:52.646
+Unexpected IOException: I,3,surefire.real.class.path,D:\005C2 - Udemy\005CDevOps\005Cfunctional-test\005Ctarget\005Csurefire\005Csurefirebooter17131627272799545358.jar
+
+
+# Created on 2020-06-03T14:29:52.646
+Unexpected IOException: I,3,user.script,
+
+
+# Created on 2020-06-03T14:29:52.647
+Unexpected IOException: I,3,sun.management.compiler,HotSpot 64-Bit Tiered Compilers
+
+
+# Created on 2020-06-03T14:29:52.648
+Unexpected IOException: I,3,java.runtime.version,11.0.7+8-LTS
+
+
+# Created on 2020-06-03T14:29:52.649
+Unexpected IOException: I,3,user.name,danie
+
+
+# Created on 2020-06-03T14:29:52.650
+Unexpected IOException: I,3,path.separator,;
+
+
+# Created on 2020-06-03T14:29:52.650
+Unexpected IOException: I,3,os.version,10.0
+
+
+# Created on 2020-06-03T14:29:52.651
+Unexpected IOException: I,3,java.runtime.name,Java(TM) SE Runtime Environment
+
+
+# Created on 2020-06-03T14:29:52.652
+Unexpected IOException: I,3,file.encoding,Cp1252
+
+
+# Created on 2020-06-03T14:29:52.653
+Unexpected IOException: I,3,java.vm.name,Java HotSpot(TM) 64-Bit Server VM
+
+
+# Created on 2020-06-03T14:29:52.654
+Unexpected IOException: I,3,java.vendor.version,18.9
+
+
+# Created on 2020-06-03T14:29:52.655
+Unexpected IOException: I,3,localRepository,C:\005CUsers\005Cdanie\005C.m2\005Crepository
+
+
+# Created on 2020-06-03T14:29:52.657
+Unexpected IOException: I,3,java.vendor.url.bug,https://bugreport.java.com/bugreport/
+
+
+# Created on 2020-06-03T14:29:52.658
+Unexpected IOException: I,3,java.io.tmpdir,C:\005CUsers\005Cdanie\005CAppData\005CLocal\005CTemp\005C
+
+
+# Created on 2020-06-03T14:29:52.659
+Unexpected IOException: I,3,java.version,11.0.7
+
+
+# Created on 2020-06-03T14:29:52.660
+Unexpected IOException: I,3,user.dir,D:\005C2 - Udemy\005CDevOps\005Cfunctional-test
+
+
+# Created on 2020-06-03T14:29:52.661
+Unexpected IOException: I,3,os.arch,amd64
+
+
+# Created on 2020-06-03T14:29:52.661
+Unexpected IOException: I,3,java.vm.specification.name,Java Virtual Machine Specification
+
+
+# Created on 2020-06-03T14:29:52.662
+Unexpected IOException: I,3,java.awt.printerjob,sun.awt.windows.WPrinterJob
+
+
+# Created on 2020-06-03T14:29:52.663
+Unexpected IOException: I,3,sun.os.patch.level,
+
+
+# Created on 2020-06-03T14:29:52.664
+Unexpected IOException: I,3,java.library.path,C:\005CProgram Files\005CJava\005Cjdk-11.0.7\005Cbin;C:\005CWINDOWS\005CSun\005CJava\005Cbin;C:\005CWINDOWS\005Csystem32;C:\005CWINDOWS;C:\005CWINDOWS\005Csystem32;C:\005CWINDOWS;C:\005CWINDOWS\005CSystem32\005CWbem;C:\005CWINDOWS\005CSystem32\005CWindowsPowerShell\005Cv1.0\005C;C:\005CWINDOWS\005CSystem32\005COpenSSH\005C;C:\005CProgram Files (x86)\005CNVIDIA Corporation\005CPhysX\005CCommon;C:\005CWINDOWS\005Csystem32;C:\005CWINDOWS;C:\005CWINDOWS\005CSystem32\005CWbem;C:\005CWINDOWS\005CSystem32\005CWindowsPowerShell\005Cv1.0\005C;C:\005CWINDOWS\005CSystem32\005COpenSSH\005C;C:\005CProgram Files\005CGit\005Ccmd;C:\005CProgram Files (x86)\005CCalibre2\005C;C:\005CProgram Files\005CNVIDIA Corporation\005CNVIDIA NvDLISR;C:\005CProgram Files (x86)\005CIntel\005CIntel(R) Management Engine Components\005CDAL;C:\005CProgram Files\005CIntel\005CIntel(R) Management Engine Components\005CDAL;C:\005CProgram Files\005CJava\005Cjdk-11.0.7\005Cbin;C:\005CProgram Files\005CMongoDB\005CServer\005C4.2\005Cbin;C:\005CProgram Files\005CDocker\005CDocker\005Cresources\005Cbin;C:\005CProgramData\005CDockerDesktop\005Cversion-bin;C:\005CProgram Files\005Cnodejs\005C;D:\005Cseleniumdriver;C:\005CProgram Files\005CMySQL\005CMySQL Shell 8.0\005Cbin\005C;C:\005CUsers\005Cdanie\005CAppData\005CLocal\005CMicrosoft\005CWindowsApps;C:\005CProgram Files\005CJava\005Capache-maven-3.6.3\005Cbin;C:\005CUsers\005Cdanie\005CAppData\005CLocal\005CPrograms\005CMicrosoft VS Code\005Cbin;C:\005CUsers\005Cdanie\005CAppData\005CLocal\005CGitHubDesktop\005Cbin;C:\005CProgram Files\005Cheroku\005Cbin;C:\005CUsers\005Cdanie\005CAppData\005CRoaming\005Cnpm;.
+
+
+# Created on 2020-06-03T14:29:52.665
+Unexpected IOException: I,3,java.vendor,Oracle Corporation
+
+
+# Created on 2020-06-03T14:29:52.666
+Unexpected IOException: I,3,java.vm.info,mixed mode
+
+
+# Created on 2020-06-03T14:29:52.666
+Unexpected IOException: I,3,java.vm.version,11.0.7+8-LTS
+
+
+# Created on 2020-06-03T14:29:52.667
+Unexpected IOException: I,3,sun.io.unicode.encoding,UnicodeLittle
+
+
+# Created on 2020-06-03T14:29:52.668
+Unexpected IOException: I,3,java.class.version,55.0
+
+
+# Created on 2020-06-03T14:29:52.669
+Unexpected IOException: 1,3,com.daniel.functionalTest.FunctionalTest,com.daniel.functionalTest.FunctionalTest,null,null,null
+
+
+# Created on 2020-06-03T14:29:52.670
+Unexpected IOException: 5,3,com.daniel.functionalTest.FunctionalTest,naoDeveSalvarTarefaSemDescricao(com.daniel.functionalTest.FunctionalTest),null,null,11277
+
+
+# Created on 2020-06-03T14:29:52.671
+Unexpected IOException with stream: jun 03, 2020 2:25:17 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+
+
+# Created on 2020-06-03T14:29:52.672
+Unexpected IOException with stream: jun 03, 2020 2:25:24 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+
+# Created on 2020-06-03T14:29:52.673
+Unexpected IOException: 6,3,com.daniel.functionalTest.FunctionalTest,naoDeveSalvarTarefaSemDescricao(com.daniel.functionalTest.FunctionalTest),null,null,11277
+
+
+# Created on 2020-06-03T14:29:52.674
+Unexpected IOException: 5,3,com.daniel.functionalTest.FunctionalTest,naoDeveSalvarTarefaSemData(com.daniel.functionalTest.FunctionalTest),null,null,275108
+
+
+# Created on 2020-06-03T14:29:52.674
+Unexpected IOException with stream: jun 03, 2020 2:25:17 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+
+
+# Created on 2020-06-03T14:29:52.679
+Unexpected IOException: 7,3,com.daniel.functionalTest.FunctionalTest,naoDeveSalvarTarefaSemData(com.daniel.functionalTest.FunctionalTest),null,Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DANFNOTE'\002C ip: '192.168.1.77'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11.0.7'\000ADriver info: driver.version: RemoteWebDriver,275108,Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DANFNOTE'\002C ip: '192.168.1.77'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11.0.7'\000ADriver info: driver.version: RemoteWebDriver,FunctionalTest.naoDeveSalvarTarefaSemData:84->acessarAplicacao:27 \00BB UnreachableBrowser,org.openqa.selenium.remote.UnreachableBrowserException: \000ACould not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DANFNOTE'\002C ip: '192.168.1.77'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11.0.7'\000ADriver info: driver.version: RemoteWebDriver\000A\0009at com.daniel.functionalTest.FunctionalTest.acessarAplicacao(FunctionalTest.java:27)\000A\0009at com.daniel.functionalTest.FunctionalTest.naoDeveSalvarTarefaSemData(FunctionalTest.java:84)\000ACaused by: java.io.IOException: unexpected end of stream on Connection{192.168.1.77:4444\002C proxy=DIRECT hostAddress=/192.168.1.77:4444 cipherSuite=none protocol=http/1.1}\000A\0009at com.daniel.functionalTest.FunctionalTest.acessarAplicacao(FunctionalTest.java:27)\000A\0009at com.daniel.functionalTest.FunctionalTest.naoDeveSalvarTarefaSemData(FunctionalTest.java:84)\000ACaused by: java.io.EOFException: \005Cn not found: limit=0 content=\2026\000A\0009at com.daniel.functionalTest.FunctionalTest.acessarAplicacao(FunctionalTest.java:27)\000A\0009at com.daniel.functionalTest.FunctionalTest.naoDeveSalvarTarefaSemData(FunctionalTest.java:84)\000A
+
+
+# Created on 2020-06-03T14:29:52.680
+Unexpected IOException: 5,3,com.daniel.functionalTest.FunctionalTest,deveCadastrarTask(com.daniel.functionalTest.FunctionalTest),null,null,11469
+
+
+# Created on 2020-06-03T14:29:52.681
+Unexpected IOException with stream: jun 03, 2020 2:25:17 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+
+
+# Created on 2020-06-03T14:29:52.682
+Unexpected IOException with stream: jun 03, 2020 2:25:24 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+
+# Created on 2020-06-03T14:29:52.682
+Unexpected IOException: 6,3,com.daniel.functionalTest.FunctionalTest,deveCadastrarTask(com.daniel.functionalTest.FunctionalTest),null,null,11469
+
+
+# Created on 2020-06-03T14:29:52.683
+Unexpected IOException: 2,3,com.daniel.functionalTest.FunctionalTest,com.daniel.functionalTest.FunctionalTest,null,null,275108
+
+

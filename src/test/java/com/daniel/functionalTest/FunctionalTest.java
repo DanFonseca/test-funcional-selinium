@@ -5,8 +5,10 @@ package com.daniel.functionalTest;
 import java.beans.DesignMode;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.sql.Driver;
 import java.util.concurrent.TimeUnit;
 
+import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
@@ -21,22 +23,19 @@ public class FunctionalTest {
 	
 	
 	public WebDriver acessarAplicacao()  {
-			
 			DesiredCapabilities cap =  DesiredCapabilities.chrome();
 			WebDriver driver = null;
-			
 			try {
 				driver = new RemoteWebDriver(new URL("http://192.168.1.77:4444/wd/hub"), cap);
 			} catch (MalformedURLException e) {
 				e.printStackTrace();
 			}
-			
-			driver.get("http://localhost:8001/tasks/");
+			driver.get("http://192.168.1.77:8001/tasks/");
 			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
 			return driver;
 	}
-	
+
 	
 	@Test
 	public void deveCadastrarTask()  {
@@ -56,7 +55,7 @@ public class FunctionalTest {
 		assertEquals("Success!", message);
 		
 		}finally {
-			driver.close();
+			driver.quit();
 		}
 	}
 	
@@ -78,9 +77,10 @@ public class FunctionalTest {
 		assertEquals("Fill the task description", message);
 		
 		}finally {
-			driver.close();
+			driver.quit();
 		}
 	}
+
 	
 	@Test
 	public void naoDeveSalvarTarefaSemData()  {
@@ -100,7 +100,8 @@ public class FunctionalTest {
 		assertEquals("Fill the due date", message);
 		
 		}finally {
-			driver.close();
+			driver.quit();
 		}
 	}
+
 }

@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.daniel.functionalTest.FunctionalTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.727 s - in com.daniel.functionalTest.FunctionalTest

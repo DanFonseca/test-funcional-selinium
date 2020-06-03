@@ -1,0 +1,298 @@
+# Created on 2020-06-03T14:42:56.083
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:386)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+
+# Created on 2020-06-03T14:43:03.407
+Unexpected IOException: I,1,sun.desktop,windows
+
+
+# Created on 2020-06-03T14:43:03.408
+Unexpected IOException: I,1,awt.toolkit,sun.awt.windows.WToolkit
+
+
+# Created on 2020-06-03T14:43:03.411
+Unexpected IOException: I,1,java.specification.version,11
+
+
+# Created on 2020-06-03T14:43:03.412
+Unexpected IOException: I,1,sun.cpu.isalist,amd64
+
+
+# Created on 2020-06-03T14:43:03.412
+Unexpected IOException: I,1,sun.jnu.encoding,Cp1252
+
+
+# Created on 2020-06-03T14:43:03.413
+Unexpected IOException: I,1,java.class.path,D:\005C2 - Udemy\005CDevOps\005Cfunctional-test\005Ctarget\005Ctest-classes;D:\005C2 - Udemy\005CDevOps\005Cfunctional-test\005Ctarget\005Cclasses;C:\005CUsers\005Cdanie\005C.m2\005Crepository\005Cjunit\005Cjunit\005C4.13\005Cjunit-4.13.jar;C:\005CUsers\005Cdanie\005C.m2\005Crepository\005Corg\005Chamcrest\005Chamcrest-core\005C1.3\005Chamcrest-core-1.3.jar;C:\005CUsers\005Cdanie\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-java\005C3.141.59\005Cselenium-java-3.141.59.jar;C:\005CUsers\005Cdanie\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-api\005C3.141.59\005Cselenium-api-3.141.59.jar;C:\005CUsers\005Cdanie\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-chrome-driver\005C3.141.59\005Cselenium-chrome-driver-3.141.59.jar;C:\005CUsers\005Cdanie\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-edge-driver\005C3.141.59\005Cselenium-edge-driver-3.141.59.jar;C:\005CUsers\005Cdanie\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-firefox-driver\005C3.141.59\005Cselenium-firefox-driver-3.141.59.jar;C:\005CUsers\005Cdanie\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-ie-driver\005C3.141.59\005Cselenium-ie-driver-3.141.59.jar;C:\005CUsers\005Cdanie\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-opera-driver\005C3.141.59\005Cselenium-opera-driver-3.141.59.jar;C:\005CUsers\005Cdanie\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-remote-driver\005C3.141.59\005Cselenium-remote-driver-3.141.59.jar;C:\005CUsers\005Cdanie\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-safari-driver\005C3.141.59\005Cselenium-safari-driver-3.141.59.jar;C:\005CUsers\005Cdanie\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-support\005C3.141.59\005Cselenium-support-3.141.59.jar;C:\005CUsers\005Cdanie\005C.m2\005Crepository\005Cnet\005Cbytebuddy\005Cbyte-buddy\005C1.8.15\005Cbyte-buddy-1.8.15.jar;C:\005CUsers\005Cdanie\005C.m2\005Crepository\005Corg\005Capache\005Ccommons\005Ccommons-exec\005C1.3\005Ccommons-exec-1.3.jar;C:\005CUsers\005Cdanie\005C.m2\005Crepository\005Ccom\005Cgoogle\005Cguava\005Cguava\005C25.0-jre\005Cguava-25.0-jre.jar;C:\005CUsers\005Cdanie\005C.m2\005Crepository\005Ccom\005Cgoogle\005Ccode\005Cfindbugs\005Cjsr305\005C1.3.9\005Cjsr305-1.3.9.jar;C:\005CUsers\005Cdanie\005C.m2\005Crepository\005Corg\005Ccheckerframework\005Cchecker-compat-qual\005C2.0.0\005Cchecker-compat-qual-2.0.0.jar;C:\005CUsers\005Cdanie\005C.m2\005Crepository\005Ccom\005Cgoogle\005Cerrorprone\005Cerror_prone_annotations\005C2.1.3\005Cerror_prone_annotations-2.1.3.jar;C:\005CUsers\005Cdanie\005C.m2\005Crepository\005Ccom\005Cgoogle\005Cj2objc\005Cj2objc-annotations\005C1.1\005Cj2objc-annotations-1.1.jar;C:\005CUsers\005Cdanie\005C.m2\005Crepository\005Corg\005Ccodehaus\005Cmojo\005Canimal-sniffer-annotations\005C1.14\005Canimal-sniffer-annotations-1.14.jar;C:\005CUsers\005Cdanie\005C.m2\005Crepository\005Ccom\005Csquareup\005Cokhttp3\005Cokhttp\005C3.11.0\005Cokhttp-3.11.0.jar;C:\005CUsers\005Cdanie\005C.m2\005Crepository\005Ccom\005Csquareup\005Cokio\005Cokio\005C1.14.0\005Cokio-1.14.0.jar;
+
+
+# Created on 2020-06-03T14:43:03.414
+Unexpected IOException: I,1,java.vm.vendor,Oracle Corporation
+
+
+# Created on 2020-06-03T14:43:03.415
+Unexpected IOException: I,1,sun.arch.data.model,64
+
+
+# Created on 2020-06-03T14:43:03.415
+Unexpected IOException: I,1,user.variant,
+
+
+# Created on 2020-06-03T14:43:03.416
+Unexpected IOException: I,1,java.vendor.url,https://openjdk.java.net/
+
+
+# Created on 2020-06-03T14:43:03.417
+Unexpected IOException: I,1,user.timezone,America/Sao_Paulo
+
+
+# Created on 2020-06-03T14:43:03.418
+Unexpected IOException: I,1,os.name,Windows 10
+
+
+# Created on 2020-06-03T14:43:03.418
+Unexpected IOException: I,1,java.vm.specification.version,11
+
+
+# Created on 2020-06-03T14:43:03.419
+Unexpected IOException: I,1,sun.java.launcher,SUN_STANDARD
+
+
+# Created on 2020-06-03T14:43:03.419
+Unexpected IOException: I,1,user.country,BR
+
+
+# Created on 2020-06-03T14:43:03.420
+Unexpected IOException: I,1,sun.boot.library.path,C:\005CProgram Files\005CJava\005Cjdk-11.0.7\005Cbin
+
+
+# Created on 2020-06-03T14:43:03.420
+Unexpected IOException: I,1,sun.java.command,D:\005C2 - Udemy\005CDevOps\005Cfunctional-test\005Ctarget\005Csurefire\005Csurefirebooter8932256202410010047.jar D:\005C2 - Udemy\005CDevOps\005Cfunctional-test\005Ctarget\005Csurefire 2020-06-03T14-36-50_678-jvmRun1 surefire17325652151976472780tmp surefire_011515757005519453238tmp
+
+
+# Created on 2020-06-03T14:43:03.421
+Unexpected IOException: I,1,jdk.debug,release
+
+
+# Created on 2020-06-03T14:43:03.422
+Unexpected IOException: I,1,surefire.test.class.path,D:\005C2 - Udemy\005CDevOps\005Cfunctional-test\005Ctarget\005Ctest-classes;D:\005C2 - Udemy\005CDevOps\005Cfunctional-test\005Ctarget\005Cclasses;C:\005CUsers\005Cdanie\005C.m2\005Crepository\005Cjunit\005Cjunit\005C4.13\005Cjunit-4.13.jar;C:\005CUsers\005Cdanie\005C.m2\005Crepository\005Corg\005Chamcrest\005Chamcrest-core\005C1.3\005Chamcrest-core-1.3.jar;C:\005CUsers\005Cdanie\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-java\005C3.141.59\005Cselenium-java-3.141.59.jar;C:\005CUsers\005Cdanie\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-api\005C3.141.59\005Cselenium-api-3.141.59.jar;C:\005CUsers\005Cdanie\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-chrome-driver\005C3.141.59\005Cselenium-chrome-driver-3.141.59.jar;C:\005CUsers\005Cdanie\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-edge-driver\005C3.141.59\005Cselenium-edge-driver-3.141.59.jar;C:\005CUsers\005Cdanie\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-firefox-driver\005C3.141.59\005Cselenium-firefox-driver-3.141.59.jar;C:\005CUsers\005Cdanie\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-ie-driver\005C3.141.59\005Cselenium-ie-driver-3.141.59.jar;C:\005CUsers\005Cdanie\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-opera-driver\005C3.141.59\005Cselenium-opera-driver-3.141.59.jar;C:\005CUsers\005Cdanie\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-remote-driver\005C3.141.59\005Cselenium-remote-driver-3.141.59.jar;C:\005CUsers\005Cdanie\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-safari-driver\005C3.141.59\005Cselenium-safari-driver-3.141.59.jar;C:\005CUsers\005Cdanie\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-support\005C3.141.59\005Cselenium-support-3.141.59.jar;C:\005CUsers\005Cdanie\005C.m2\005Crepository\005Cnet\005Cbytebuddy\005Cbyte-buddy\005C1.8.15\005Cbyte-buddy-1.8.15.jar;C:\005CUsers\005Cdanie\005C.m2\005Crepository\005Corg\005Capache\005Ccommons\005Ccommons-exec\005C1.3\005Ccommons-exec-1.3.jar;C:\005CUsers\005Cdanie\005C.m2\005Crepository\005Ccom\005Cgoogle\005Cguava\005Cguava\005C25.0-jre\005Cguava-25.0-jre.jar;C:\005CUsers\005Cdanie\005C.m2\005Crepository\005Ccom\005Cgoogle\005Ccode\005Cfindbugs\005Cjsr305\005C1.3.9\005Cjsr305-1.3.9.jar;C:\005CUsers\005Cdanie\005C.m2\005Crepository\005Corg\005Ccheckerframework\005Cchecker-compat-qual\005C2.0.0\005Cchecker-compat-qual-2.0.0.jar;C:\005CUsers\005Cdanie\005C.m2\005Crepository\005Ccom\005Cgoogle\005Cerrorprone\005Cerror_prone_annotations\005C2.1.3\005Cerror_prone_annotations-2.1.3.jar;C:\005CUsers\005Cdanie\005C.m2\005Crepository\005Ccom\005Cgoogle\005Cj2objc\005Cj2objc-annotations\005C1.1\005Cj2objc-annotations-1.1.jar;C:\005CUsers\005Cdanie\005C.m2\005Crepository\005Corg\005Ccodehaus\005Cmojo\005Canimal-sniffer-annotations\005C1.14\005Canimal-sniffer-annotations-1.14.jar;C:\005CUsers\005Cdanie\005C.m2\005Crepository\005Ccom\005Csquareup\005Cokhttp3\005Cokhttp\005C3.11.0\005Cokhttp-3.11.0.jar;C:\005CUsers\005Cdanie\005C.m2\005Crepository\005Ccom\005Csquareup\005Cokio\005Cokio\005C1.14.0\005Cokio-1.14.0.jar;
+
+
+# Created on 2020-06-03T14:43:03.423
+Unexpected IOException: I,1,sun.cpu.endian,little
+
+
+# Created on 2020-06-03T14:43:03.424
+Unexpected IOException: I,1,user.home,C:\005CUsers\005Cdanie
+
+
+# Created on 2020-06-03T14:43:03.425
+Unexpected IOException: I,1,user.language,pt
+
+
+# Created on 2020-06-03T14:43:03.426
+Unexpected IOException: I,1,java.specification.vendor,Oracle Corporation
+
+
+# Created on 2020-06-03T14:43:03.428
+Unexpected IOException: I,1,java.version.date,2020-04-14
+
+
+# Created on 2020-06-03T14:43:03.429
+Unexpected IOException: I,1,java.home,C:\005CProgram Files\005CJava\005Cjdk-11.0.7
+
+
+# Created on 2020-06-03T14:43:03.429
+Unexpected IOException: I,1,file.separator,\005C
+
+
+# Created on 2020-06-03T14:43:03.430
+Unexpected IOException: I,1,basedir,D:\005C2 - Udemy\005CDevOps\005Cfunctional-test
+
+
+# Created on 2020-06-03T14:43:03.431
+Unexpected IOException: I,1,java.vm.compressedOopsMode,32-bit
+
+
+# Created on 2020-06-03T14:43:03.432
+Unexpected IOException: I,1,line.separator,\000D\000A
+
+
+# Created on 2020-06-03T14:43:03.433
+Unexpected IOException: I,1,java.specification.name,Java Platform API Specification
+
+
+# Created on 2020-06-03T14:43:03.434
+Unexpected IOException: I,1,java.vm.specification.vendor,Oracle Corporation
+
+
+# Created on 2020-06-03T14:43:03.435
+Unexpected IOException: I,1,java.awt.graphicsenv,sun.awt.Win32GraphicsEnvironment
+
+
+# Created on 2020-06-03T14:43:03.436
+Unexpected IOException: I,1,surefire.real.class.path,D:\005C2 - Udemy\005CDevOps\005Cfunctional-test\005Ctarget\005Csurefire\005Csurefirebooter8932256202410010047.jar
+
+
+# Created on 2020-06-03T14:43:03.436
+Unexpected IOException: I,1,user.script,
+
+
+# Created on 2020-06-03T14:43:03.437
+Unexpected IOException: I,1,sun.management.compiler,HotSpot 64-Bit Tiered Compilers
+
+
+# Created on 2020-06-03T14:43:03.439
+Unexpected IOException: I,1,java.runtime.version,11.0.7+8-LTS
+
+
+# Created on 2020-06-03T14:43:03.440
+Unexpected IOException: I,1,user.name,danie
+
+
+# Created on 2020-06-03T14:43:03.441
+Unexpected IOException: I,1,path.separator,;
+
+
+# Created on 2020-06-03T14:43:03.442
+Unexpected IOException: I,1,os.version,10.0
+
+
+# Created on 2020-06-03T14:43:03.443
+Unexpected IOException: I,1,java.runtime.name,Java(TM) SE Runtime Environment
+
+
+# Created on 2020-06-03T14:43:03.444
+Unexpected IOException: I,1,file.encoding,Cp1252
+
+
+# Created on 2020-06-03T14:43:03.445
+Unexpected IOException: I,1,java.vm.name,Java HotSpot(TM) 64-Bit Server VM
+
+
+# Created on 2020-06-03T14:43:03.446
+Unexpected IOException: I,1,java.vendor.version,18.9
+
+
+# Created on 2020-06-03T14:43:03.447
+Unexpected IOException: I,1,localRepository,C:\005CUsers\005Cdanie\005C.m2\005Crepository
+
+
+# Created on 2020-06-03T14:43:03.448
+Unexpected IOException: I,1,java.vendor.url.bug,https://bugreport.java.com/bugreport/
+
+
+# Created on 2020-06-03T14:43:03.448
+Unexpected IOException: I,1,java.io.tmpdir,C:\005CUsers\005Cdanie\005CAppData\005CLocal\005CTemp\005C
+
+
+# Created on 2020-06-03T14:43:03.449
+Unexpected IOException: I,1,java.version,11.0.7
+
+
+# Created on 2020-06-03T14:43:03.450
+Unexpected IOException: I,1,user.dir,D:\005C2 - Udemy\005CDevOps\005Cfunctional-test
+
+
+# Created on 2020-06-03T14:43:03.451
+Unexpected IOException: I,1,os.arch,amd64
+
+
+# Created on 2020-06-03T14:43:03.451
+Unexpected IOException: I,1,java.vm.specification.name,Java Virtual Machine Specification
+
+
+# Created on 2020-06-03T14:43:03.452
+Unexpected IOException: I,1,java.awt.printerjob,sun.awt.windows.WPrinterJob
+
+
+# Created on 2020-06-03T14:43:03.453
+Unexpected IOException: I,1,sun.os.patch.level,
+
+
+# Created on 2020-06-03T14:43:03.453
+Unexpected IOException: I,1,java.library.path,C:\005CProgram Files\005CJava\005Cjdk-11.0.7\005Cbin;C:\005CWINDOWS\005CSun\005CJava\005Cbin;C:\005CWINDOWS\005Csystem32;C:\005CWINDOWS;C:\005CWINDOWS\005Csystem32;C:\005CWINDOWS;C:\005CWINDOWS\005CSystem32\005CWbem;C:\005CWINDOWS\005CSystem32\005CWindowsPowerShell\005Cv1.0\005C;C:\005CWINDOWS\005CSystem32\005COpenSSH\005C;C:\005CProgram Files (x86)\005CNVIDIA Corporation\005CPhysX\005CCommon;C:\005CWINDOWS\005Csystem32;C:\005CWINDOWS;C:\005CWINDOWS\005CSystem32\005CWbem;C:\005CWINDOWS\005CSystem32\005CWindowsPowerShell\005Cv1.0\005C;C:\005CWINDOWS\005CSystem32\005COpenSSH\005C;C:\005CProgram Files\005CGit\005Ccmd;C:\005CProgram Files (x86)\005CCalibre2\005C;C:\005CProgram Files\005CNVIDIA Corporation\005CNVIDIA NvDLISR;C:\005CProgram Files (x86)\005CIntel\005CIntel(R) Management Engine Components\005CDAL;C:\005CProgram Files\005CIntel\005CIntel(R) Management Engine Components\005CDAL;C:\005CProgram Files\005CJava\005Cjdk-11.0.7\005Cbin;C:\005CProgram Files\005CMongoDB\005CServer\005C4.2\005Cbin;C:\005CProgram Files\005CDocker\005CDocker\005Cresources\005Cbin;C:\005CProgramData\005CDockerDesktop\005Cversion-bin;C:\005CProgram Files\005Cnodejs\005C;D:\005Cseleniumdriver;C:\005CProgram Files\005CMySQL\005CMySQL Shell 8.0\005Cbin\005C;C:\005CUsers\005Cdanie\005CAppData\005CLocal\005CMicrosoft\005CWindowsApps;C:\005CProgram Files\005CJava\005Capache-maven-3.6.3\005Cbin;C:\005CUsers\005Cdanie\005CAppData\005CLocal\005CPrograms\005CMicrosoft VS Code\005Cbin;C:\005CUsers\005Cdanie\005CAppData\005CLocal\005CGitHubDesktop\005Cbin;C:\005CProgram Files\005Cheroku\005Cbin;C:\005CUsers\005Cdanie\005CAppData\005CRoaming\005Cnpm;.
+
+
+# Created on 2020-06-03T14:43:03.454
+Unexpected IOException: I,1,java.vendor,Oracle Corporation
+
+
+# Created on 2020-06-03T14:43:03.454
+Unexpected IOException: I,1,java.vm.info,mixed mode
+
+
+# Created on 2020-06-03T14:43:03.455
+Unexpected IOException: I,1,java.vm.version,11.0.7+8-LTS
+
+
+# Created on 2020-06-03T14:43:03.455
+Unexpected IOException: I,1,sun.io.unicode.encoding,UnicodeLittle
+
+
+# Created on 2020-06-03T14:43:03.456
+Unexpected IOException: I,1,java.class.version,55.0
+
+
+# Created on 2020-06-03T14:43:03.457
+Unexpected IOException: 1,1,com.daniel.functionalTest.FunctionalTest,com.daniel.functionalTest.FunctionalTest,null,null,null
+
+
+# Created on 2020-06-03T14:43:03.458
+Unexpected IOException: 5,1,com.daniel.functionalTest.FunctionalTest,deveCadastrarTask(com.daniel.functionalTest.FunctionalTest),null,null,15923
+
+
+# Created on 2020-06-03T14:43:03.459
+Unexpected IOException with stream: jun 03, 2020 2:36:52 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+
+
+# Created on 2020-06-03T14:43:03.459
+Unexpected IOException with stream: jun 03, 2020 2:36:56 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+
+# Created on 2020-06-03T14:43:03.463
+Unexpected IOException: 7,1,com.daniel.functionalTest.FunctionalTest,deveCadastrarTask(com.daniel.functionalTest.FunctionalTest),null,no such element: Unable to locate element: {"method":"css selector"\002C"selector":"#addTodo"}\000A  (Session info: chrome=79.0.3945.117)\000AFor documentation on this error\002C please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DANFNOTE'\002C ip: '192.168.1.77'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11.0.7'\000ADriver info: org.openqa.selenium.remote.RemoteWebDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 79.0.3945.117\002C chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389...\002C userDataDir: /tmp/.com.google.Chrome.Szh1Vi}\002C goog:chromeOptions: {debuggerAddress: localhost:34903}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: LINUX\002C platformName: LINUX\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webdriver.remote.sessionid: 8c1f7bfdeae354580b826fc5e25...}\000ASession ID: 8c1f7bfdeae354580b826fc5e253b225\000A*** Element info: {Using=id\002C value=addTodo},15923,no such element: Unable to locate element: {"method":"css selector"\002C"selector":"#addTodo"}\000A  (Session info: chrome=79.0.3945.117)\000AFor documentation on this error\002C please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DANFNOTE'\002C ip: '192.168.1.77'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11.0.7'\000ADriver info: org.openqa.selenium.remote.RemoteWebDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 79.0.3945.117\002C chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389...\002C userDataDir: /tmp/.com.google.Chrome.Szh1Vi}\002C goog:chromeOptions: {debuggerAddress: localhost:34903}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: LINUX\002C platformName: LINUX\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webdriver.remote.sessionid: 8c1f7bfdeae354580b826fc5e25...}\000ASession ID: 8c1f7bfdeae354580b826fc5e253b225\000A*** Element info: {Using=id\002C value=addTodo},FunctionalTest.deveCadastrarTask:43 \00BB NoSuchElement no such element: Unable to...,org.openqa.selenium.NoSuchElementException: \000Ano such element: Unable to locate element: {"method":"css selector"\002C"selector":"#addTodo"}\000A  (Session info: chrome=79.0.3945.117)\000AFor documentation on this error\002C please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DANFNOTE'\002C ip: '192.168.1.77'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11.0.7'\000ADriver info: org.openqa.selenium.remote.RemoteWebDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 79.0.3945.117\002C chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389...\002C userDataDir: /tmp/.com.google.Chrome.Szh1Vi}\002C goog:chromeOptions: {debuggerAddress: localhost:34903}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: LINUX\002C platformName: LINUX\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webdriver.remote.sessionid: 8c1f7bfdeae354580b826fc5e25...}\000ASession ID: 8c1f7bfdeae354580b826fc5e253b225\000A*** Element info: {Using=id\002C value=addTodo}\000A\0009at com.daniel.functionalTest.FunctionalTest.deveCadastrarTask(FunctionalTest.java:43)\000A
+
+
+# Created on 2020-06-03T14:43:03.464
+Unexpected IOException: 5,1,com.daniel.functionalTest.FunctionalTest,naoDeveSalvarTarefaSemData(com.daniel.functionalTest.FunctionalTest),null,null,15892
+
+
+# Created on 2020-06-03T14:43:03.465
+Unexpected IOException with stream: jun 03, 2020 2:36:52 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+
+
+# Created on 2020-06-03T14:43:03.466
+Unexpected IOException with stream: jun 03, 2020 2:36:56 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+
+# Created on 2020-06-03T14:43:03.469
+Unexpected IOException: 7,1,com.daniel.functionalTest.FunctionalTest,naoDeveSalvarTarefaSemData(com.daniel.functionalTest.FunctionalTest),null,no such element: Unable to locate element: {"method":"css selector"\002C"selector":"#addTodo"}\000A  (Session info: chrome=79.0.3945.117)\000AFor documentation on this error\002C please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DANFNOTE'\002C ip: '192.168.1.77'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11.0.7'\000ADriver info: org.openqa.selenium.remote.RemoteWebDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 79.0.3945.117\002C chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389...\002C userDataDir: /tmp/.com.google.Chrome.WbFdFe}\002C goog:chromeOptions: {debuggerAddress: localhost:33087}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: LINUX\002C platformName: LINUX\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webdriver.remote.sessionid: 903a989f9e074412fc0cda7c577...}\000ASession ID: 903a989f9e074412fc0cda7c57796cf9\000A*** Element info: {Using=id\002C value=addTodo},15892,no such element: Unable to locate element: {"method":"css selector"\002C"selector":"#addTodo"}\000A  (Session info: chrome=79.0.3945.117)\000AFor documentation on this error\002C please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DANFNOTE'\002C ip: '192.168.1.77'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11.0.7'\000ADriver info: org.openqa.selenium.remote.RemoteWebDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 79.0.3945.117\002C chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389...\002C userDataDir: /tmp/.com.google.Chrome.WbFdFe}\002C goog:chromeOptions: {debuggerAddress: localhost:33087}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: LINUX\002C platformName: LINUX\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webdriver.remote.sessionid: 903a989f9e074412fc0cda7c577...}\000ASession ID: 903a989f9e074412fc0cda7c57796cf9\000A*** Element info: {Using=id\002C value=addTodo},FunctionalTest.naoDeveSalvarTarefaSemData:87 \00BB NoSuchElement no such element: ...,org.openqa.selenium.NoSuchElementException: \000Ano such element: Unable to locate element: {"method":"css selector"\002C"selector":"#addTodo"}\000A  (Session info: chrome=79.0.3945.117)\000AFor documentation on this error\002C please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DANFNOTE'\002C ip: '192.168.1.77'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11.0.7'\000ADriver info: org.openqa.selenium.remote.RemoteWebDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 79.0.3945.117\002C chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389...\002C userDataDir: /tmp/.com.google.Chrome.WbFdFe}\002C goog:chromeOptions: {debuggerAddress: localhost:33087}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: LINUX\002C platformName: LINUX\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webdriver.remote.sessionid: 903a989f9e074412fc0cda7c577...}\000ASession ID: 903a989f9e074412fc0cda7c57796cf9\000A*** Element info: {Using=id\002C value=addTodo}\000A\0009at com.daniel.functionalTest.FunctionalTest.naoDeveSalvarTarefaSemData(FunctionalTest.java:87)\000A
+
+
+# Created on 2020-06-03T14:43:03.470
+Unexpected IOException: 5,1,com.daniel.functionalTest.FunctionalTest,naoDeveSalvarTarefaSemDescricao(com.daniel.functionalTest.FunctionalTest),null,null,371405
+
+
+# Created on 2020-06-03T14:43:03.471
+Unexpected IOException with stream: jun 03, 2020 2:36:52 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+
+
+# Created on 2020-06-03T14:43:03.475
+Unexpected IOException: 7,1,com.daniel.functionalTest.FunctionalTest,naoDeveSalvarTarefaSemDescricao(com.daniel.functionalTest.FunctionalTest),null,Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DANFNOTE'\002C ip: '192.168.1.77'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11.0.7'\000ADriver info: driver.version: RemoteWebDriver,371405,Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DANFNOTE'\002C ip: '192.168.1.77'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11.0.7'\000ADriver info: driver.version: RemoteWebDriver,FunctionalTest.naoDeveSalvarTarefaSemDescricao:62->acessarAplicacao:27 \00BB UnreachableBrowser,org.openqa.selenium.remote.UnreachableBrowserException: \000ACould not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DANFNOTE'\002C ip: '192.168.1.77'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11.0.7'\000ADriver info: driver.version: RemoteWebDriver\000A\0009at com.daniel.functionalTest.FunctionalTest.acessarAplicacao(FunctionalTest.java:27)\000A\0009at com.daniel.functionalTest.FunctionalTest.naoDeveSalvarTarefaSemDescricao(FunctionalTest.java:62)\000ACaused by: java.io.IOException: unexpected end of stream on Connection{192.168.1.77:4444\002C proxy=DIRECT hostAddress=/192.168.1.77:4444 cipherSuite=none protocol=http/1.1}\000A\0009at com.daniel.functionalTest.FunctionalTest.acessarAplicacao(FunctionalTest.java:27)\000A\0009at com.daniel.functionalTest.FunctionalTest.naoDeveSalvarTarefaSemDescricao(FunctionalTest.java:62)\000ACaused by: java.io.EOFException: \005Cn not found: limit=0 content=\2026\000A\0009at com.daniel.functionalTest.FunctionalTest.acessarAplicacao(FunctionalTest.java:27)\000A\0009at com.daniel.functionalTest.FunctionalTest.naoDeveSalvarTarefaSemDescricao(FunctionalTest.java:62)\000A
+
+
+# Created on 2020-06-03T14:43:03.476
+Unexpected IOException: 2,1,com.daniel.functionalTest.FunctionalTest,com.daniel.functionalTest.FunctionalTest,null,null,371405
+
+
