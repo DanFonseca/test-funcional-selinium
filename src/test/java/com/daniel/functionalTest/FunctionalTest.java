@@ -12,6 +12,7 @@ public class FunctionalTest {
 	
 	
 	public WebDriver acessarAplicacao() {
+		System.setProperty("webdriver.chrome.driver", "src/main/resources/drivers/chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.get("http://localhost:8001/tasks/");
@@ -84,5 +85,4 @@ public class FunctionalTest {
 			driver.close();
 		}
 	}
-
 }
