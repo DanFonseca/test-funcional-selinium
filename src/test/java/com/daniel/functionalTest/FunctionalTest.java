@@ -33,6 +33,7 @@ public class FunctionalTest {
 			driver.get("http://192.168.1.77:8001/tasks/");
 			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
+			
 			return driver;
 	}
 
@@ -102,6 +103,30 @@ public class FunctionalTest {
 		}finally {
 			driver.quit();
 		}
+	}
+	
+	@Test
+	public void deveDeletar () {
+		WebDriver driver = acessarAplicacao();
+		try {
+		//clicar no botado de adicionar
+		driver.findElement(By.id("addTodo")).click();
+		//inputar os dados de texto
+		driver.findElement(By.id("task")).sendKeys("Teste Funcional Texto");
+		//inputar os dados de texto
+		driver.findElement(By.id("dueDate")).sendKeys("10/10/2030");
+		//apertar no botao enviar
+		driver.findElement(By.id("saveButton")).click();
+
+		driver.findElement(By.xpath("//a[@class=\"btn btn-outline-danger btn-sm\"]")).click();
+		String message = driver.findElement(By.id("message")).getText();
+	
+		assertEquals("Success!", message);
+		
+		}finally {
+			driver.quit();
+		}
+		
 	}
 
 }
